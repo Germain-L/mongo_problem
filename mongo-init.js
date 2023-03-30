@@ -1,2 +1,3 @@
-// @ts-ignore
-db = db.getSiblingDB('project')
+/* eslint-disable no-undef */
+db = db.getSiblingDB('project');
+db.createCollection('users');
